@@ -1,0 +1,67 @@
+<!-- form handling -->
+<form action="/api/User" method="POST" id="add_user">
+  <div class="new_user">
+    <div class="form-group">
+      <label for="firstname" class="text-light">First Name</label>
+      <input
+        type="text"
+        name="firstname"
+        value=""
+        placeholder="First Name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="middlename" class="text-light">Middle Name</label>
+      <input
+        type="text"
+        name="middlename"
+        value=""
+        placeholder="Middle Name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="lastname" class="text-light">Last Name</label>
+      <input
+        type="text"
+        name="lastname"
+        value=""
+        placeholder="Last Name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="age" class="text-light">Age</label>
+      <input type="text" name="age" value="" placeholder="Age" />
+    </div>
+    <div class="form-group">
+      <label for="contact_number" class="text-light">Contact Number</label>
+      <input
+        type="text"
+        name="contact_number"
+        value=""
+        placeholder="Contact Number"
+      />
+    </div>
+    <div class="form-group">
+      <label for="email" class="text-light">Email</label>
+      <input type="text" name="email" value="" placeholder="Email" />
+    </div>
+    <div class="form-group">
+      <label for="password" class="text-light">Password</label>
+      <input type="password" name="password" value="" placeholder="Password" />
+    </div>
+    <div class="form-group">
+      <label for="usertype" class="text-light">User Type</label>
+      <select name="usertype">
+        <option value="User">User</option>
+        <option value="Admin">Admin</option>
+        <option value="Superadmin">Superadmin</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn text-dark update">Save</button>
+    </div>
+  </div>
+</form>
